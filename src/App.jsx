@@ -1,9 +1,9 @@
-
+import Carrousel from './components/Carrousel'
+import './styles/import.scss'
 import NavBar from './components/global/NavBar';
 import './import.scss';
 import Footer from './components/global/Footer';
 import { Routes, Route } from "react-router-dom";
-import './import.scss';
 import HomePage from "./pages_components/HomePage"
 import Contact from "./pages_components/Contact";
 import CreateAlbum from './pages_components/CreateAlbum';
@@ -12,6 +12,8 @@ import CreateAlbum from './pages_components/CreateAlbum';
 function App() {
   return (
     <>
+
+      <Carrousel />
 
       <NavBar />
 
@@ -24,6 +26,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+
 
     </>
   );
