@@ -13,18 +13,11 @@
     --color-primary: #E9C46A;
     --color-primary-variant: #F4A261;
     --color-secondary: #E76F51;
-    --font-primary:'Courgette';
-
 
 }
 
-body {
+body,
+html {
     background-color: var(--color-bg-variant);
-
-
-}
-
-html{
-    font-family: var(--font-primary);
-    background-color: #2A9D8F;
+    height: 100%;
 }

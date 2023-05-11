@@ -12,9 +12,11 @@ import CreateAlbum from './pages_components/CreateAlbum';
 function App() {
   return (
     <>
-
-
       <NavBar />
+
+
+
+
 
       <main className="appStyle">
         <Routes>
