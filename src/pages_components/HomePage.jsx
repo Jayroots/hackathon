@@ -1,12 +1,13 @@
 import React from 'react';
-import Carrousel from '../components/Carrousel';
+import imagegrandmere from "./../assets/images/GrandMere.png";
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Coucou Grand'Ma!</h1>
-            <Carrousel />
-        </div>
+        <div className='homePage'>
+            <h1 className='titrePage'>Look Grand’MA</h1>
+           <img className='imagegrandmere' src={imagegrandmere}/>
+           </div>
+        
     );
 };
 
