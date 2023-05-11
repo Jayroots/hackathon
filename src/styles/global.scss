@@ -15,3 +15,9 @@
     --color-secondary: #E76F51;
 
 }
+
+body,
+html {
+    background-color: var(--color-bg-variant);
+    height: 100%;
+}

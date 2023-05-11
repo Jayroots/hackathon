@@ -12,10 +12,10 @@ import CreateAlbum from './pages_components/CreateAlbum';
 function App() {
   return (
     <>
-
-      <Carrousel />
-
       <NavBar />
+
+
+
 
 
       <main className="appStyle">
