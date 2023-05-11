@@ -8,8 +8,8 @@
 }
 
 :root {
-    --color-bg-: #264653;
-    --color-bg-variant: #2A9D8F;
+    --color-bg-:#023047;
+    --color-bg-variant: #8ECAE6;
     --color-primary: #E9C46A;
     --color-primary-variant: #F4A261;
     --color-secondary: #E76F51;
@@ -20,4 +20,5 @@ body,
 html {
     background-color: var(--color-bg-variant);
     height: 100%;
+     font-family: 'Courgette', cursive;;
 }
