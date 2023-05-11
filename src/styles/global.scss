@@ -13,5 +13,12 @@
     --color-primary: #E9C46A;
     --color-primary-variant: #F4A261;
     --color-secondary: #E76F51;
+    --font-primary:'Courgette';
 
+
+}
+
+html{
+    font-family: var(--font-primary);
+    background-color: #2A9D8F
 }
