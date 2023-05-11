@@ -3,6 +3,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { ImWhatsapp } from 'react-icons/im'
 import { useRef } from 'react';
+import mercimamie from ".././assets/images/MerciMamie.png";
 
 
 const Contact = () => {
@@ -20,6 +21,8 @@ const Contact = () => {
 
 
     return (
+        <>
+        <img className='mercimamie' src={mercimamie}/>
         <section id='contact'>
             <div className='contact-head'>
                 <h5>Restons en contact</h5>
@@ -63,6 +66,7 @@ const Contact = () => {
 
             </div>
         </section>
+        </>
     )
 }
 

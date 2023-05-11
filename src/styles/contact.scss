@@ -81,3 +81,21 @@ textarea {
     border-radius: 0.5rem;
     height: 40px;
 }
+
+
+.mercimamie{
+    height: 30vh;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    z-index: 4;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.02);
+    }
+  
+    &:active {
+      transform: scale(1.04);
+
+    }
+}
