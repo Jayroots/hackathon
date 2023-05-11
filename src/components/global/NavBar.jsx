@@ -1,11 +1,69 @@
+
 import React from 'react';
+import { AiOutlineHome } from 'react-icons/ai'
+import { AiOutlineUser } from 'react-icons/ai'
+import { BiBook } from 'react-icons/bi'
+import { RiServiceLine } from 'react-icons/ri'
+import { BiMessageSquareDetail } from 'react-icons/bi'
+import { useState } from 'react'
 
-const NavBar = () => {
+
+/* const NavBar = () => {
+    const [activeNav, setActiveNav] = useState('#')
     return (
-        <div>
+        <nav>
+            <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}> <AiOutlineHome />Home</a>
+            <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /> Album </a>
+            {/* <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}> <BiBook /> Team </a> */}
+<a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}> <RiServiceLine /> Contact</a>
 
-        </div>
-    );
+
+    /*         </nav>
+        )
+    } */
+    * /
+
+export default NavBar
+
+/* const NavBar = () => {
+    return (
+        <nav className='NavBar'>
+            <ul>
+                <li>Home</li>
+                <li>Album</li>
+                {/* <li/* >Team</li> */
+/*    <li>Contact</li> */
+/*  */
+/*       </ul>
+  </nav>
+);
 };
+*/
+/* export default NavBar; */
 
-export default NavBar;
+import { NavLink } from "react-router-dom";
+
+export default function NavBar() {
+    return (
+        <nav className="NavBar">
+            <ul>
+                <li>
+                    <NavLink className="primary-btn btn" to="/">
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="primary-btn btn" to="/album">
+                        Album
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="secondary-btn btn" to="/contact">
+                        Contact
+                    </NavLink>
+                </li>
+            </ul>
+        </nav>
+    );
+}
+
