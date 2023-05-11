@@ -12,6 +12,7 @@ const Carrousel = () => {
       `-webkit-transform: rotateY(${newAngle}deg);
       -moz-transform: rotateY(${newAngle}deg);
       transform: rotateY(${newAngle}deg);`
+
     );
   };
 
