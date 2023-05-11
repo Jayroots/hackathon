@@ -31,6 +31,11 @@ export default function NavBar() {
                         Contact
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink className="secondary-btn btn" to="/team">
+                        Team
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );
