@@ -14,7 +14,7 @@ function App() {
     <>
 
       <NavBar />
-  
+
 
       <main className="appStyle">
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-          <Footer />
+      <Footer />
 
     </>
   );
