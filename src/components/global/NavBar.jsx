@@ -1,17 +1,25 @@
-import React from 'react';
+import { NavLink } from "react-router-dom";
 
-const NavBar = () => {
-    return (
-        <nav className='NavBar'>
-            <ul>
-                <li>Home</li>
-                <li>Album</li>
-                {/* <li>Team</li> */}
-                <li>Contact</li>
-
-            </ul>
-        </nav>
-    );
-};
-
-export default NavBar;
+export default function NavBar() {
+  return (
+    <nav className="NavBar">
+     <ul>
+      <li>
+        <NavLink className="primary-btn btn" to="/">
+          Home
+        </NavLink>
+        </li>
+        <li>
+        <NavLink className="primary-btn btn" to="/album">
+          Album
+        </NavLink>
+        </li>
+        <li>
+        <NavLink className="secondary-btn btn" to="/contact">
+          Contact
+        </NavLink>
+        </li>
+    </ul>
+    </nav>
+  );
+}
