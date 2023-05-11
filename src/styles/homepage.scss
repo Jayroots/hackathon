@@ -6,16 +6,38 @@
     padding-top: 10vh;
     display: flex;
     text-align:left;
-    margin-left: 40vh; 
+    margin-left: 20vh; 
     font-size:8vh;
     color: var(--color-bg-);
     font-family: var(--);
 }
 .imagegrandmere{
-   
     height: 30vh;
-    padding-left: 80vw;
+
     
-    
-   
+    padding-left: 80vw; 
+     transition: 0.3s;
+    &:hover {
+      transform: scale(1.02);
+    }
+  
+    &:active {
+      transform: scale(1.04);
+
+    }
+
+
+}
+.imageterre{
+    height: 13vh;
+   padding-right: 5vh;
+   transition: 0.15s;
+   &:hover {
+     transform: scale(1.05);
+   }
+ 
+   &:active {
+     transform: scale(1.15);
+   }
+
 }
