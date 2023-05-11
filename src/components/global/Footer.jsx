@@ -9,14 +9,6 @@ const Footer = () => {
         <footer>
             <a href="#" className='footer__logo'></a>
 
-            <ul className='permalinks'>
-                <li><a href="#" >Home</a></li>
-                <li><a href="#portofolio" >Album</a></li>
-                {/* <li><a href="#testimonials" >Team</a></li> */}
-                <li><a href="#contact" >Contact</a></li>
-
-            </ul>
-
             <div className="footer__socials">
                 <a href="https://facebook.com"><FaFacebookF /></a>
                 <a href="https://instagram.com"><FiInstagram /></a>
