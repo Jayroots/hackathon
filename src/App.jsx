@@ -7,7 +7,7 @@ import './import.scss';
 import HomePage from "./pages_components/HomePage"
 import Contact from "./pages_components/Contact";
 import CreateAlbum from './pages_components/CreateAlbum';
-
+import Carrousel from './components/Carrousel';
 
 function App() {
   return (
