@@ -16,17 +16,17 @@ export default function NavBar() {
         <nav className="NavBar">
             <ul>
                 <li>
-                    <NavLink className="primary-btn btn" to="/">
+                    <NavLink to="/">
                         Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="primary-btn btn" to="/album">
+                    <NavLink to="/album">
                         Album
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="secondary-btn btn" to="/contact">
+                    <NavLink to="/contact">
                         Contact
                     </NavLink>
                 </li>
