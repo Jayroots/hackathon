@@ -3,7 +3,6 @@ import React from 'react';
 import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { useState } from 'react'
 
@@ -12,32 +11,31 @@ import { useState } from 'react'
 
 import { NavLink } from "react-router-dom";
 
-export default function NavBar() {
+const NavBar = () => {
+    const [activeNav, setActiveNav] = useState('#')
     return (
-        <nav className="NavBar">
-            <ul>
-                <li>
-                    <NavLink className="primary-btn btn" to="/">
-                        Home
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className="primary-btn btn" to="/album">
-                        Album
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className="secondary-btn btn" to="/contact">
-                        Contact
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink className="secondary-btn btn" to="/team">
-                        Team
-                    </NavLink>
-                </li>
-            </ul>
+        <nav>
+            <NavLink className="primary-btn" to="/">
+                <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}> <AiOutlineHome /></a>
+                <p>Home</p>
+            </NavLink>
+            <NavLink className="primary-btn" to="/album">
+                <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}> <AiOutlineUser /></a>
+                <p>Album</p>
+            </NavLink>
+            <NavLink className="primary-btn" to="/team">
+                <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}> <BiBook /></a>
+                <p>Team</p>
+            </NavLink>
+            <NavLink className="primary-btn" to="/contact">
+                <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <BiMessageSquareDetail /></a>
+                <p>Contact</p>
+            </NavLink>
+
+
         </nav>
-    );
+    )
 }
 
+
+export default NavBar
