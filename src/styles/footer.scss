@@ -1,5 +1,5 @@
 footer {
-    background: #264653;
+    background: var(--color-bg-);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -33,7 +33,7 @@ footer a {
 }
 
 .footer__socials a {
-    background: #264653;
+    background: var(--color-bg-);
     color: whitesmoke;
     padding: 0.8rem;
     border-radius: 0.7rem;
@@ -43,8 +43,8 @@ footer a {
 
 .footer__socials a:hover {
     background: transparent;
-    color: #264653;
-    border-color: #264653;
+    color: var(--color-bg-);
+    border-color: var(--color-bg-);
 }
 
 .footer__copyright {
