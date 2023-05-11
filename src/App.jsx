@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react'
 
-import './import.scss'
+import Carrousel from './components/Carrousel'
+import './styles/import.scss'
 
 function App() {
 
 
   return (
     <>
-
+        <Carrousel />
     </>
   )
 }
