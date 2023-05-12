@@ -44,7 +44,7 @@ const Contact = () => {
                             <MdOutlineEmail className='contact__option-icon' />
                             <h4>Email</h4>
                             <h5>contact@lookgrandma.com</h5>
-                            <a href="mailto:contact@lookgrandma.com" target='_blank'>Envoyez un message</a>
+                            <a href="mailto:contact@lookgrandma.com" target='_blank' rel="noreferrer">Envoyez un message</a>
 
                         </article>
                         <article className='contact__option'>
@@ -52,14 +52,14 @@ const Contact = () => {
                             <h4>Linkedin</h4>
 
                             <h5>Look Grand'MA !</h5>
-                            <a href="https://www.linkedin.com/in/jeremy-francois/" target='_blank'> Retrouvez nous</a>
+                            <a href="https://www.linkedin.com/in/jeremy-francois/" target='_blank' rel="noreferrer"> Retrouvez nous</a>
 
                         </article>
                         <article className='contact__option'>
                             <ImWhatsapp className='contact__option-icon' />
                             <h4>WhatsApp</h4>
                             <h5>06 69 69 69 69</h5>
-                            <a href="https://wa.me/0669696969" target='_blank'>Appelez nous</a>
+                            <a href="https://wa.me/0669696969" target='_blank' rel="noreferrer">Appelez nous</a>
 
                         </article>
                     </div>

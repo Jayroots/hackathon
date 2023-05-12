@@ -11,7 +11,7 @@
     /* grid-template-columns: 30% 58%; */
     /*   gap: 12%; */
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
     justify-content: space-between;
 
 
@@ -23,7 +23,9 @@
 .contact__options {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 1.2rem;
+    padding: 20;
 
 }
 
@@ -51,6 +53,11 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    
+}
+
+h1{
+    color: var( --color-bg-)
 }
 
 

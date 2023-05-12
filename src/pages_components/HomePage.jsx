@@ -6,11 +6,13 @@ import Carrousel from '../components/Carrousel';
 
 const HomePage = () => {
 
+
   return (
     <div>
       <div className='homePage'>
         <h2>Parce que vos souvenirs<br></br>
           s'immortalisent ❤️
+
         </h2>
 
 
