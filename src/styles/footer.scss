@@ -7,7 +7,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     /*    margin-top: 7rem; */
-    position: absolute;
+    position: fixed;
     bottom: 0;
     /* on le colle en bas */
     width: 100%;
@@ -15,8 +15,7 @@ footer {
     /* Hauteur du pied de page */
     
 
-}
-
+}  
 footer a {
     color: whitesmoke;
 }
