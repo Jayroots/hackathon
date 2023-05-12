@@ -24,3 +24,9 @@
 .team-member__description {
   margin-top: 10px;
 }
+
+.team-member:hover {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.25s;
+  transform: scale(1.2);
+}
