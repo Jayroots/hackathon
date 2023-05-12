@@ -1,0 +1,38 @@
+
+
+.albumCard{
+    display: flex;
+    background-color: #D9D9D9;
+    margin: 50px;
+    border-radius: 50px;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+ 
+ 
+ 
+    img{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     width: 50vw;
+     height: 50vh;
+     width: auto;
+     }
+ 
+     li{
+         
+         width: 400px;
+         height: 500px;
+     }
+     
+     
+     p{
+     margin-bottom: 40px;
+     font-size: 30px;
+ }
+ 
+ }

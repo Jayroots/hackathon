@@ -1,8 +1,14 @@
 import React from 'react';
+import imagealbum from "./../assets/images/album-photo.png";
 
 
 const Team = () => {
   return (
+      <>
+        <h1 className='titrePage'><img className='imageterre' src={imagealbum}/>Look Grand’MA</h1>
+          <h2>Pas le temps d'appeler Mamie ?<br></br>
+            Et pourtant tu es sur ton ordi ? 
+           </h2>
     <div className="team-component">
      
       <div className="team-member">
@@ -27,6 +33,7 @@ const Team = () => {
         <p className="team-member__description">Charles - Développeur Full Stack. Jeune et talentueux, il code jour et nuit, surtout la nuit !</p>
       </div>
     </div>
+    </>
   );
 };
 
