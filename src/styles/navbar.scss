@@ -2,11 +2,13 @@ nav {
     display: flex;
     justify-content: end;
     
+    
 
 }
 .navy-container{
     display: flex;
     justify-content: space-between;
+  
 
 }
 
@@ -21,6 +23,8 @@ nav {
     border: 1px solid transparent;
     border-radius: 30px;
     width: 100%;
+    gap:20px
+    
 
 }
 
@@ -34,6 +38,9 @@ nav {
 nav a,
 p {
     text-align: center;
+    color: var(--color-bg-);
+    
+    
 }
 
 .primary-btn:hover {
@@ -42,6 +49,10 @@ p {
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.25s;
     transform: scale(1.2);
+    
+    
 }
 
-.primary-btn:active {}
+.primary-btn:active {
+   
+}

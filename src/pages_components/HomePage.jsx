@@ -9,8 +9,9 @@ const HomePage = () => {
     return (
       <div>
          <div className='homePage'>
-         <h2>Pas le temps d'appeler Mamie ?<br></br>
-         Et pourtant tu es sur ton ordi ? 
+         <h2>Parce-que vos souvenirs <br></br>
+         S'immortalise
+          
         </h2>
          
           
