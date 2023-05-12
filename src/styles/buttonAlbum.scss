@@ -3,21 +3,21 @@
     text-align: center;
      
     .buttonAlbum{
-
+        
         font-family: 'Courgette', cursive;  
         font-size: 2em;   
-        height: 10vh;
-        width: 40vh;
+        height: 15vh;
+        width: 50vh;
         border-radius: 20px;
         background-color: var(--color-bg-);
         color: var(--color-primary-variant);
         transition: 0.15s;
    &:hover {
-     transform: scale(1.05);
+     transform: scale(1.25);
    }
  
    &:active {
-     transform: scale(1.15);
+     transform: scale(2.15);
    }
 
 
