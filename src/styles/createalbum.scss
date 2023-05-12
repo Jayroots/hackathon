@@ -1,18 +1,12 @@
-
-.home-page {
+.CreateAlbum-page {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
     // background-color:cornflowerblue;
-    
-    &_select {
-        margin-top: 48px;
-        padding: 12px 40px;
-        font-size: 24px;
-        border-radius: 20px;
-        font-family: "Lucida Console", Monaco, monospace;
-    }
+
 
     &_ul {
         display: flex;
@@ -20,13 +14,13 @@
         flex-wrap: wrap;
         gap: 4%;
         margin-bottom: 30%;
-        
+
     }
 }
 
 
 
-.albumCard{
+/* .albumCard {
     display: flex;
     background-color: #D9D9D9;
     margin: 50px;
@@ -36,30 +30,29 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-   
- 
- 
- 
-    img{
-     text-align: center;
-     justify-content: center;
-     align-items: center;
-     width: 50vw;
-     height: 50vh;
-     width: auto;
-     }
- 
-     li{
-         
-         width: 400px;
-         height: 500px;
-     }
-     
-     
-     p{
-     margin-bottom: 40px;
-     font-size: 30px;
- }
- 
- }
 
+
+
+
+    img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 50vh;
+        width: auto;
+    }
+
+    li {
+
+        width: 400px;
+        height: 500px;
+    }
+
+
+    p {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+} */
