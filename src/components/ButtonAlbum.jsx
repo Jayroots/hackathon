@@ -1,9 +1,17 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ButtonAlbum = () => {
     return (
         <div className='albumbutton'>
-        <button className='buttonAlbum'>Créer ton Album Photo </button>
+         <NavLink to="/album">
+        <button className='buttonAlbum'>Créer ton Album </button>
+         </NavLink>
+
+         
+           
+
+        
         </div>
     );
 };

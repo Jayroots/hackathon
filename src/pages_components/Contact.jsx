@@ -5,21 +5,29 @@ import { ImWhatsapp } from 'react-icons/im'
 import { useRef } from 'react';
 import mercimamie from ".././assets/images/MerciMamie.png";
 import emailjs from 'emailjs-com'
+import { useState } from 'react';
 
 
 const Contact = () => {
 
     const form = useRef();
+    const [showPopup, setShowPopup] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_17pyr9r', 'template_1m8zakk', form.current, 'XqT6PBNLhbBRW2ZYO')
-
-        e.target.reset()
-
+            .then(() => {
+                setShowPopup(true);
+                form.current.reset();
+            })
+            .catch((error) => console.error('Une erreur s\'est produite lors de l\'envoi de l\'e-mail :', error));
     };
 
+
+    const closePopup = () => {
+        setShowPopup(false);
+    };
 
     return (
         <>
@@ -64,7 +72,16 @@ const Contact = () => {
                         <button type='submit' className='btn-primary'>Envoyez</button>
 
                     </form>
-
+                    {showPopup && (
+                        <div className="popup">
+                            <div className="popup-content">
+                            <p>Votre message a été envoyé avec succès !</p>
+                            <button className="close-btn" onClick={closePopup}>
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        </div>
+                    )}
                 </div>
             </section>
         </>
