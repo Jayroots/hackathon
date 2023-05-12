@@ -27,6 +27,26 @@
         padding: 10px;
     }
 
+    button {
+        cursor: pointer;
+        padding: 5px;
+        font-family: 'Courgette', cursive;
+
+        border-radius: 20px;
+        background-color: var(--color-bg-);
+        color: whitesmoke;
+        transition: 0.15s;
+
+        &:hover {
+            transform: scale(1.25);
+        }
+
+        &:active {
+            transform: scale(2.15);
+        }
+
+
+    }
 
 }
 

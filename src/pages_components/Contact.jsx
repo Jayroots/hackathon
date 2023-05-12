@@ -4,7 +4,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 import { ImWhatsapp } from 'react-icons/im'
 import { useRef } from 'react';
 import mercimamie from ".././assets/images/MerciMamie.png";
-// import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 import { useState } from 'react';
 
 
@@ -75,11 +75,11 @@ const Contact = () => {
                     {showPopup && (
                         <div className="popup">
                             <div className="popup-content">
-                            <p>Votre message a été envoyé avec succès !</p>
-                            <button className="close-btn" onClick={closePopup}>
-                                <span>&times;</span>
-                            </button>
-                        </div>
+                                <p>Votre message a été envoyé avec succès !</p>
+                                <button className="close-btn" onClick={closePopup}>
+                                    <span>&times;</span>
+                                </button>
+                            </div>
                         </div>
                     )}
                 </div>
