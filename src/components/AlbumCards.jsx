@@ -1,19 +1,22 @@
 import React from 'react';
 
-const AlbumCards = ({name, image, description, url }) => {
+const AlbumCards = ({ name, image, description, url }) => {
     return (
-        <div className="albumCard">
-            
-        <li className="Simp">
-        <a href="https://www.journiapp.com/fr" >{url}
-        <p>{name}JOURNI</p></a>
-        <h2>{description}description</h2>
-        
-          <img src ={url} />
-        
+
+
+        <li className="album-card">
+
+            <h2>{name}</h2>
+            <img /* className='albumcard-img' */ src={image} />
+            <p>{description}</p>
+            <a href={url} ><button className=''> Visitez le site
+            </button></a>
+
+
+
         </li>
-      
-</div>
+
+
     );
 };
 

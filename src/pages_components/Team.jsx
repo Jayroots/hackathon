@@ -5,7 +5,7 @@ import imagealbum from "./../assets/images/album-photo.png";
 const Team = () => {
   return (
     <>
-
+      <h1 className='team-h1'>La super team créative !</h1>
       <div className="team-component">
 
         <div className="team-member">
@@ -25,10 +25,7 @@ const Team = () => {
           <img src="https://tse1.mm.bing.net/th?id=OIP.VeiFtyL_6rGZWuOeDl9WHAHaE4&pid=Api&P=0" alt="Team Member 4" className="team-member__photo" />
           <p className="team-member__description">Jeremy - Développeur Full Stack. Expert en organisation et en présentation du code, il est partout à la fois.</p>
         </div>
-        <div className="team-member">
-          <img src="https://tse3.mm.bing.net/th?id=OIP.O48YEoqiu5XqlnO02TVo7gHaEo&pid=Api&P=0" alt="Team Member 5" className="team-member__photo" />
-          <p className="team-member__description">Charles - Développeur Full Stack. Jeune et talentueux, il code jour et nuit, surtout la nuit !</p>
-        </div>
+
       </div>
     </>
   );

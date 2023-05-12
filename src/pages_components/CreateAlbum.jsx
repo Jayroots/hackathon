@@ -24,8 +24,8 @@ const CreateAlbum = () => {
                 {data.map((e) => {
                     return (
                         <AlbumCards key={e.id}
-                            name={e.name}
                             image={e.image}
+                            name={e.name}
                             url={e.url}
                             description={e.description} />
                     )
