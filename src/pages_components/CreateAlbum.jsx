@@ -1,9 +1,12 @@
 import React from 'react';
+import AlbumCards from '../components/global/AlbumCards';
+
 
 const CreateAlbum = () => {
     return (
-        <div>
-
+        <div className='home-page'>
+       
+       
         </div>
     );
 };
