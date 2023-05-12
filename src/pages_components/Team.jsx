@@ -1,8 +1,14 @@
 import React from 'react';
+import imagealbum from "./../assets/images/album-photo.png";
 
 
 const Team = () => {
   return (
+      <>
+        <h1 className='titrePage'><img className='imageterre' src={imagealbum}/>Look Grand’MA</h1>
+          <h2>Pas le temps d'appeler Mamie ?<br></br>
+            Et pourtant tu es sur ton ordi ? 
+           </h2>
     <div className="team-component">
       <div className="team-member">
         <img src="https://tse2.explicit.bing.net/th?id=OIP.Ppjx5ofyam1am6lQcap_igHaGe&pid=Api&P=0" alt="Team Member 1" className="team-member__photo" />
@@ -25,6 +31,7 @@ const Team = () => {
         <p className="team-member__description">Charles</p>
       </div>
     </div>
+    </>
   );
 };
 

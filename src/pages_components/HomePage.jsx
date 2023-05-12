@@ -1,5 +1,5 @@
 import React from 'react';
-import imageterre from "./../assets/images/album-photo.png";
+import imageterre from "./../assets/images/la-terre.png";
 import imagegrandmere from "./../assets/images/GrandMere.png";
 import ButtonAlbum from '../components/ButtonAlbum';
 import Carrousel from '../components/Carrousel';

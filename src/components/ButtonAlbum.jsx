@@ -5,8 +5,13 @@ const ButtonAlbum = () => {
     return (
         <div className='albumbutton'>
          <NavLink to="/album">
-        <button className='buttonAlbum'>Créer ton Album Photo </button>
+        <button className='buttonAlbum'>Créer ton Album </button>
          </NavLink>
+
+         
+           
+
+        
         </div>
     );
 };
