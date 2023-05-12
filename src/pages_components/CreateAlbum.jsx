@@ -1,8 +1,10 @@
 
+
 import { useEffect, useState } from 'react';
 import { createClient } from "@supabase/supabase-js";
 import AlbumCards from '../components/AlbumCards';
 const supabase = createClient("https://wmtnyelersyjuhxljyge.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndtdG55ZWxlcnN5anVoeGxqeWdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM4ODI1MjcsImV4cCI6MTk5OTQ1ODUyN30.jSfxvoJjZjX6kDZfm0Y3nFVr7cH6MNGX7SFiQJh_-ew");
+
 
 const CreateAlbum = () => {
     const [data, setData] = useState([]);
@@ -16,6 +18,7 @@ const CreateAlbum = () => {
     }
 
     return (
+
         <main className="CreateAlbum-page">
             <ul className="CreateAlbum-page_ul">
                 {data.map((e) => {
@@ -37,6 +40,7 @@ const CreateAlbum = () => {
         ))}
       </ul> */}
         </main>
+
     );
 };
 
