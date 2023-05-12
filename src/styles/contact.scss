@@ -1,5 +1,8 @@
 .contact-head {
-    padding: 15px;
+    padding: 4%;
+    text-align: center;
+    font-size: xx-large;
+
 }
 
 .container.contact__container {
@@ -8,7 +11,7 @@
     /* grid-template-columns: 30% 58%; */
     /*   gap: 12%; */
     margin: 0 auto;
-    margin-top: 8%;
+    margin-top: 3%;
     justify-content: space-between;
 
 
@@ -83,19 +86,20 @@ textarea {
 }
 
 
-.mercimamie{
+.mercimamie {
     height: 30vh;
     position: absolute;
     top: 40%;
     right: 5%;
     z-index: 4;
     transition: 0.3s;
+
     &:hover {
-      transform: scale(1.02);
+        transform: scale(1.02);
     }
-  
+
     &:active {
-      transform: scale(1.04);
+        transform: scale(1.04);
 
     }
 }
