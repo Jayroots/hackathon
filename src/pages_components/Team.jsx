@@ -4,10 +4,12 @@ import imagealbum from "./../assets/images/album-photo.png";
 
 const Team = () => {
   return (
-    <>
-      <h1 className='team-h1'>La super team créative !</h1>
-      <div className="team-component">
 
+    <>   <div className='la-team-pp'>
+          <p>Team of the Hackathon</p></div>
+
+      <div className="team-component">
+               
         <div className="team-member">
           <img src="https://tse2.explicit.bing.net/th?id=OIP.Ppjx5ofyam1am6lQcap_igHaGe&pid=Api&P=0" alt="Team Member 1" className="team-member__photo" />
           <p className="team-member__description"> Sébastien - Développeur Full Stack. Il travail à la fois en développement back-end et front-end.
@@ -26,7 +28,9 @@ const Team = () => {
           <p className="team-member__description">Jeremy - Développeur Full Stack. Expert en organisation et en présentation du code, il est partout à la fois.</p>
         </div>
 
-      </div>
+        
+        </div>
+
     </>
   );
 };
