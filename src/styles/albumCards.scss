@@ -1,27 +1,39 @@
-
-.albumCard{
-  
- 
- 
-    img{
+.album-card {
     text-align: center;
-     justify-content: center;
-     align-items: center;
-     height: 300px;
-     
-     
-     }
- 
-     li{
-         
-         width: 400px;
-         height: 500px;
-     }
-     
-     
-     p{
-     margin-bottom: 40px;
-     font-size: 30px;
- }
- 
- }
+    height: 600px;
+    width: 350px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 48px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: whitesmoke;
+
+    h2 {
+        padding-block: 24px;
+        font-size: 28px;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+    img {
+        height: 30%;
+        border-radius: 20px;
+
+    }
+
+    p {
+        padding: 10px;
+    }
+
+
+}
+
+.album-card:hover {
+    transform: scale(1.05);
+}
+
+.album-card:active {
+    transform: scale(1.15);
+}

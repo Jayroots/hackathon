@@ -4,8 +4,10 @@ import imagealbum from "./../assets/images/album-photo.png";
 
 const Team = () => {
   return (
+
     <>   <div className='la-team-pp'>
           <p>Team of the Hackathon</p></div>
+
       <div className="team-component">
                
         <div className="team-member">
@@ -25,9 +27,10 @@ const Team = () => {
           <img src="https://tse1.mm.bing.net/th?id=OIP.VeiFtyL_6rGZWuOeDl9WHAHaE4&pid=Api&P=0" alt="Team Member 4" className="team-member__photo" />
           <p className="team-member__description">Jeremy - Développeur Full Stack. Expert en organisation et en présentation du code, il est partout à la fois.</p>
         </div>
+
         
         </div>
-      
+
     </>
   );
 };
