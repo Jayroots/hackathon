@@ -1,21 +1,26 @@
 .team-component {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .team-member {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .team-member__photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  
-  .team-member__description {
-    margin-top: 10px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.team-member {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: var(--color-bg);
+}
+
+.team-member__photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.team-member__description {
+  margin-top: 10px;
+}
