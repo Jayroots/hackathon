@@ -1,4 +1,30 @@
 
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // background-color:cornflowerblue;
+    
+    &_select {
+        margin-top: 48px;
+        padding: 12px 40px;
+        font-size: 24px;
+        border-radius: 20px;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
+
+    &_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4%;
+        margin-bottom: 30%;
+        
+    }
+}
+
+
 
 .albumCard{
     display: flex;
@@ -36,3 +62,4 @@
  }
  
  }
+

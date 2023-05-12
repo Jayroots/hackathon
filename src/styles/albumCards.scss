@@ -1,0 +1,19 @@
+.album-card {
+    text-align: center;
+    margin-top: 48px;
+    min-height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    
+
+    p {
+        padding-block: 24px;
+        font-size: 28px;
+        color: midnightblue;
+    }
+
+    img {
+        height: 300px;
+        border-radius: 20px;
+    }
+}
