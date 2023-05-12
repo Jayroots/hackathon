@@ -1,5 +1,5 @@
 #carousel {
-  perspective: 1200px;
+  perspective: 1200%;
   background: var(--color-bg-variant);
   padding-top: 2vh;
   font-size: 0;
@@ -9,6 +9,7 @@
 }
 
 #spinner {
+  margin-top: 120px;
   transform-style: preserve-3d;
   height: 300px;
   transform-origin: 50% 50% -300px;

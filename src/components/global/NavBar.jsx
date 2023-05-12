@@ -4,6 +4,7 @@ import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
 import { BiMessageSquareDetail } from 'react-icons/bi'
+import imageterre from "../../assets/images/album-photo.png";
 import { useState } from 'react'
 
 
@@ -14,6 +15,9 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (
+        <div className='navy-container'>
+        <h1 className='titrePage'><img className='imageterre' src={imageterre}/>Look Grand’MA</h1>
+       
         <nav>
             <ul className='nav-container-ul'>
                 <li className='nav-container-li'>
@@ -53,6 +57,7 @@ const NavBar = () => {
 
 
         </nav>
+        </div>
     )
 }
 
