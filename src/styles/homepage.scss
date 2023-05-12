@@ -3,20 +3,25 @@
     width: 100wh;
 }
 .titrePage{
-    padding-top: 10vh;
+    padding-bottom: 3vh;
     display: flex;
     text-align:left;
-    margin-left: 20vh; 
+    margin-left: 4vh; 
     font-size:8vh;
     color: var(--color-bg-);
     font-family: var(--);
 }
+
+h2{
+  margin-left: 20vh;
+}
 .imagegrandmere{
     height: 30vh;
-
-    
-    padding-left: 80vw; 
-     transition: 0.3s;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    z-index: 4;
+    transition: 0.3s;
     &:hover {
       transform: scale(1.02);
     }
@@ -41,3 +46,7 @@
    }
 
 }
+
+
+
+
