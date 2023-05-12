@@ -1,11 +1,11 @@
 import React from 'react';
-/* import AlbumCards from '../components/global/AlbumCards'; */
-import imagealbum from "./../assets/images/album-photo.png";
+ import AlbumCards from '../components/AlbumCards';
+
 
 const CreateAlbum = () => {
     return (
         <div>
-
+        <AlbumCards />
         </div>
     );
 };

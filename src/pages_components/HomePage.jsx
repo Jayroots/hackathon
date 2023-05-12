@@ -10,7 +10,7 @@ const HomePage = () => {
     <div>
       <div className='homePage'>
         <h2>Parce que vos souvenirs<br></br>
-          s'immortalise ❤️
+          s'immortalisent ❤️
         </h2>
 
 

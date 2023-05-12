@@ -1,19 +1,27 @@
-.album-card {
+
+.albumCard{
+  
+ 
+ 
+    img{
     text-align: center;
-    margin-top: 48px;
-    min-height: 400px;
-    width: 300px;
-    border-radius: 20px;
-    
-
-    p {
-        padding-block: 24px;
-        font-size: 28px;
-        color: midnightblue;
-    }
-
-    img {
-        height: 300px;
-        border-radius: 20px;
-    }
-}
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     
+     
+     }
+ 
+     li{
+         
+         width: 400px;
+         height: 500px;
+     }
+     
+     
+     p{
+     margin-bottom: 40px;
+     font-size: 30px;
+ }
+ 
+ }
