@@ -4,7 +4,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 import { ImWhatsapp } from 'react-icons/im'
 import { useRef } from 'react';
 import mercimamie from ".././assets/images/MerciMamie.png";
-import emailjs from 'emailjs-com'
+// import emailjs from 'emailjs-com'
 import { useState } from 'react';
 
 
